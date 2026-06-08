@@ -1,0 +1,217 @@
+{
+  "description": "Music and soundscape metadata for Calm Quest — ambient tracks for relaxation and focus",
+  "total_tracks": 20,
+  "tracks": [
+    {
+      "id": "track-001",
+      "title": "Morning Dew",
+      "category": "nature",
+      "description": "Gentle forest sounds with soft birdsong and the delicate rustle of leaves in a light breeze. Recorded in a temperate woodland at dawn.",
+      "duration_seconds": 900,
+      "mood_tags": ["peaceful", "fresh", "gentle"],
+      "tier": "free"
+    },
+    {
+      "id": "track-002",
+      "title": "Ocean Horizon",
+      "category": "nature",
+      "description": "Steady, rhythmic waves rolling onto a sandy shore. The distant cry of seagulls and the soft whisper of sea foam create an endless sense of calm.",
+      "duration_seconds": 1200,
+      "mood_tags": ["rhythmic", "expansive", "soothing"],
+      "tier": "free"
+    },
+    {
+      "id": "track-003",
+      "title": "Rainy Window",
+      "category": "nature",
+      "description": "A steady, gentle rainfall against glass, with occasional distant thunder rumbles. The perfect backdrop for introspection or sleep.",
+      "duration_seconds": 1800,
+      "mood_tags": ["cozy", "introspective", "steady"],
+      "tier": "free"
+    },
+    {
+      "id": "track-004",
+      "title": "Mountain Stream",
+      "category": "nature",
+      "description": "Crystal-clear water flowing over smooth stones in a high-altitude stream. The crisp, clean sound of moving water at a consistent, calming pace.",
+      "duration_seconds": 900,
+      "mood_tags": ["clear", "flowing", "fresh"],
+      "tier": "free"
+    },
+    {
+      "id": "track-005",
+      "title": "Summer Meadow",
+      "category": "nature",
+      "description": "A warm field alive with gentle wind, buzzing insects, and the occasional bird call. Evokes lazy afternoons and open skies.",
+      "duration_seconds": 1200,
+      "mood_tags": ["warm", "airy", "nostalgic"],
+      "tier": "premium"
+    },
+    {
+      "id": "track-006",
+      "title": "Starlit Silence",
+      "category": "ambient",
+      "description": "Deep, atmospheric pads with subtle shimmering textures that evoke the vastness of a star-filled night sky. Minimalist and deeply peaceful.",
+      "duration_seconds": 1500,
+      "mood_tags": ["vast", "peaceful", "nocturnal"],
+      "tier": "free"
+    },
+    {
+      "id": "track-007",
+      "title": "Drifting Nebula",
+      "category": "ambient",
+      "description": "Slow-evolving ambient tones that shift subtly like cosmic clouds. Ethereal textures float and merge, inviting deep relaxation.",
+      "duration_seconds": 1200,
+      "mood_tags": ["ethereal", "spacious", "meditative"],
+      "tier": "premium"
+    },
+    {
+      "id": "track-008",
+      "title": "Temple Bells",
+      "category": "ambient",
+      "description": "Soft, resonant singing bowls and distant temple bells recorded in a quiet meditation space. Each tone lingers and fades into silence.",
+      "duration_seconds": 900,
+      "mood_tags": ["resonant", "sacred", "mindful"],
+      "tier": "free"
+    },
+    {
+      "id": "track-009",
+      "title": "Deep Space",
+      "category": "ambient",
+      "description": "Low, rumbling sub-bass tones layered with high-frequency shimmer. Creates a sensation of floating in the vast emptiness of space.",
+      "duration_seconds": 1800,
+      "mood_tags": ["deep", "immersive", "contemplative"],
+      "tier": "premium"
+    },
+    {
+      "id": "track-010",
+      "title": "Warm Blanket",
+      "category": "ambient",
+      "description": "Soft, enveloping ambient textures with gentle harmonic shifts. Like being wrapped in warmth and safety — perfect for anxiety relief.",
+      "duration_seconds": 1200,
+      "mood_tags": ["warm", "safe", "comforting"],
+      "tier": "free"
+    },
+    {
+      "id": "track-011",
+      "title": "Alpha Waves (10 Hz)",
+      "category": "binaural_beats",
+      "description": "Pure binaural beat at 10 Hz (Alpha range) over a light ambient bed. Designed to promote relaxed alertness and gentle focus. Best experienced with headphones.",
+      "duration_seconds": 1800,
+      "mood_tags": ["focused", "relaxed-alert", "brainwave"],
+      "frequencies": {"carrier": 200, "beat": 10},
+      "tier": "premium"
+    },
+    {
+      "id": "track-012",
+      "title": "Theta Waves (6 Hz)",
+      "category": "binaural_beats",
+      "description": "Binaural beat at 6 Hz (Theta range) layered over a soft drone. Associated with deep meditation, REM sleep, and creative insight.",
+      "duration_seconds": 1800,
+      "mood_tags": ["dreamy", "meditative", "creative"],
+      "frequencies": {"carrier": 200, "beat": 6},
+      "tier": "premium"
+    },
+    {
+      "id": "track-013",
+      "title": "Delta Waves (2 Hz)",
+      "category": "binaural_beats",
+      "description": "Deep delta wave binaural beat at 2 Hz for deep sleep and restoration. Subtle and unobtrusive — ideal for nighttime listening.",
+      "duration_seconds": 2700,
+      "mood_tags": ["deep-sleep", "restorative", "subconscious"],
+      "frequencies": {"carrier": 180, "beat": 2},
+      "tier": "premium"
+    },
+    {
+      "id": "track-014",
+      "title": "Focus Flow (14 Hz)",
+      "category": "binaural_beats",
+      "description": "Low Beta binaural beat at 14 Hz to support concentration and mental clarity. A gentle rhythmic pulse under a calm ambient surface.",
+      "duration_seconds": 1800,
+      "mood_tags": ["focused", "clear", "productive"],
+      "frequencies": {"carrier": 220, "beat": 14},
+      "tier": "premium"
+    },
+    {
+      "id": "track-015",
+      "title": "Soft Static",
+      "category": "white_noise",
+      "description": "Pure, filtered white noise with a gentle high-frequency roll-off. Masks distracting sounds and creates a consistent auditory environment.",
+      "duration_seconds": 3600,
+      "mood_tags": ["neutral", "consistent", "masking"],
+      "tier": "free"
+    },
+    {
+      "id": "track-016",
+      "title": "Pink Serenity",
+      "category": "white_noise",
+      "description": "Pink noise — deeper and warmer than white noise, similar to steady rainfall. Often recommended for improving sleep quality and memory consolidation.",
+      "duration_seconds": 3600,
+      "mood_tags": ["warm", "deep", "sleep-supporting"],
+      "tier": "free"
+    },
+    {
+      "id": "track-017",
+      "title": "Lullaby in G Major",
+      "category": "instrumental",
+      "description": "A gentle piano lullaby in G major. Simple, melodic phrases with soft dynamics and plenty of space between notes. Played with a warm, felted piano tone.",
+      "duration_seconds": 600,
+      "mood_tags": ["gentle", "melodic", "sleepy"],
+      "tier": "free"
+    },
+    {
+      "id": "track-018",
+      "title": "Acoustic Morning",
+      "category": "instrumental",
+      "description": "Fingerstyle acoustic guitar played slowly and deliberately. Warm, resonant tones with a simple, repeating melody that invites a peaceful morning.",
+      "duration_seconds": 900,
+      "mood_tags": ["warm", "organic", "morning"],
+      "tier": "premium"
+    },
+    {
+      "id": "track-019",
+      "title": "Harmonic Drift",
+      "category": "instrumental",
+      "description": "A solo cello playing long, sustained notes that slowly shift in harmony. Rich overtones and a deep, soulful resonance.",
+      "duration_seconds": 900,
+      "mood_tags": ["rich", "soulful", "contemplative"],
+      "tier": "premium"
+    },
+    {
+      "id": "track-020",
+      "title": "Flute in the Valley",
+      "category": "instrumental",
+      "description": "A simple wooden flute melody echoing across an imaginary valley. Earthy, authentic, and deeply grounding — inspired by Native American flute traditions.",
+      "duration_seconds": 1200,
+      "mood_tags": ["earthy", "grounding", "authentic"],
+      "tier": "premium"
+    }
+  ],
+  "categories": {
+    "nature": {
+      "label": "Nature Sounds",
+      "description": "Recordings from the natural world — rain, ocean, forests, and wildlife",
+      "icon": "leaf"
+    },
+    "ambient": {
+      "label": "Ambient Music",
+      "description": "Synthetic and atmospheric textures for deep relaxation",
+      "icon": "cloud"
+    },
+    "binaural_beats": {
+      "label": "Binaural Beats",
+      "description": "Brainwave entrainment tones (best with headphones)",
+      "icon": "headphones"
+    },
+    "white_noise": {
+      "label": "Noise & Static",
+      "description": "Consistent noise profiles for masking and focus",
+      "icon": "wind"
+    },
+    "instrumental": {
+      "label": "Instrumental Music",
+      "description": "Live acoustic instruments — piano, guitar, cello, flute",
+      "icon": "music"
+    }
+  }
+}

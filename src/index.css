@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color-scheme: light;
+  color: #27231e;
+  background-color: #f7f5f1;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -19,12 +19,28 @@
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+
 #root {
   width: 100%;
+  max-width: 430px;
+  margin: 0 auto;
+  min-height: 100vh;
+  background-color: #f7f5f1;
+  position: relative;
+}
+
+/* Custom styles for the mockup */
+.bg-calm-gradient {
+  background: linear-gradient(135deg, #f5ebe0 0%, #d6e8e8 50%, #c9dbe9 100%);
+}
+
+.bg-primary-gradient {
+  background: linear-gradient(135deg, #1a5832, #2d8a4e);
 }
