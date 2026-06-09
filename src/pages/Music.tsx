@@ -47,14 +47,18 @@ export default function MusicPage() {
     }
   }
 
-  const handleTrackClick = (track: MusicTrack) => {
-    if (track.tier === 'premium' && !isPremium) {
-      // Logic for premium gating could go here
-      // For now, we'll allow play but with a visual indicator
-      alert("This is a Premium track. Upgrade for full access.");
-      return;
+  const getAlbumArt = (category: string) => {
+    switch (category) {
+      case 'nature': return '/src/assets/images/album-nature.png';
+      case 'ambient': return '/src/assets/images/album-ambient.png';
+      case 'binaural_beats': return '/src/assets/images/album-binaural.png';
+      case 'white_noise': return '/src/assets/images/album-white-noise.png';
+      case 'instrumental': return '/src/assets/images/album-instrumental.png';
+      default: return '/src/assets/images/album-ambient.png';
     }
-    
+  };
+
+  const handleTrackClick = (track: MusicTrack) => {
     if (currentTrack?.id === track.id) {
       togglePlay();
     } else {
@@ -140,17 +144,20 @@ export default function MusicPage() {
                 }`}
               >
                 <div className={`w-14 h-14 rounded-2xl flex items-center justify-center relative overflow-hidden transition-transform group-active:scale-95 ${
-                  isCurrent ? 'bg-calm-green text-white' : 'bg-calm-green/10 text-calm-green'
+                  isCurrent ? 'ring-2 ring-white/50 shadow-lg' : ''
                 }`}>
-                  {isPlayingThis ? (
-                    <div className="flex items-end space-x-0.5 h-6">
-                      <motion.div animate={{ height: [4, 16, 8, 12, 4] }} transition={{ repeat: Infinity, duration: 1 }} className="w-1 bg-current rounded-full" />
-                      <motion.div animate={{ height: [8, 4, 16, 4, 8] }} transition={{ repeat: Infinity, duration: 0.8 }} className="w-1 bg-current rounded-full" />
-                      <motion.div animate={{ height: [12, 8, 4, 16, 12] }} transition={{ repeat: Infinity, duration: 1.2 }} className="w-1 bg-current rounded-full" />
-                    </div>
-                  ) : (
-                    <Play size={24} fill={isCurrent ? "white" : "currentColor"} className={isCurrent ? "" : "opacity-60"} />
-                  )}
+                  <img src={getAlbumArt(track.category)} alt="" className="absolute inset-0 w-full h-full object-cover" />
+                  <div className={`absolute inset-0 flex items-center justify-center bg-black/20 ${isCurrent ? 'bg-black/40' : ''}`}>
+                    {isPlayingThis ? (
+                      <div className="flex items-end space-x-0.5 h-6">
+                        <motion.div animate={{ height: [4, 16, 8, 12, 4] }} transition={{ repeat: Infinity, duration: 1 }} className="w-1 bg-white rounded-full" />
+                        <motion.div animate={{ height: [8, 4, 16, 4, 8] }} transition={{ repeat: Infinity, duration: 0.8 }} className="w-1 bg-white rounded-full" />
+                        <motion.div animate={{ height: [12, 8, 4, 16, 12] }} transition={{ repeat: Infinity, duration: 1.2 }} className="w-1 bg-white rounded-full" />
+                      </div>
+                    ) : (
+                      <Play size={24} fill="white" className="text-white" />
+                    )}
+                  </div>
                 </div>
 
                 <div className="flex-1 min-w-0">

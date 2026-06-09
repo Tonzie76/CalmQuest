@@ -62,6 +62,31 @@ export const MusicPlayer: React.FC = () => {
   // In a real app, track.url would be used.
   const audioUrl = "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"; 
 
+  // Mock premium status (should be from auth store later)
+  const isPremium = false;
+
+  useEffect(() => {
+    if (!isPremium && progress >= 30) {
+      setIsPlaying(false);
+      setProgress(0);
+      if (audioRef.current) {
+        audioRef.current.currentTime = 0;
+      }
+      alert("Free tier: 30s preview. Upgrade to Premium for full access!");
+    }
+  }, [progress, isPremium]);
+
+  const getAlbumArt = (category: string) => {
+    switch (category) {
+      case 'nature': return '/src/assets/images/album-nature.png';
+      case 'ambient': return '/src/assets/images/album-ambient.png';
+      case 'binaural_beats': return '/src/assets/images/album-binaural.png';
+      case 'white_noise': return '/src/assets/images/album-white-noise.png';
+      case 'instrumental': return '/src/assets/images/album-instrumental.png';
+      default: return '/src/assets/images/album-ambient.png';
+    }
+  };
+
   return (
     <>
       <audio 
@@ -86,12 +111,12 @@ export const MusicPlayer: React.FC = () => {
               className="bg-[#111d4d]/90 backdrop-blur-lg border border-white/10 rounded-2xl p-3 flex items-center justify-between shadow-2xl cursor-pointer"
             >
               <div className="flex items-center space-x-3 overflow-hidden">
-                <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-calm-green to-blue-600 flex-shrink-0 flex items-center justify-center">
-                  <Volume2 size={20} className="text-white/80" />
+                <div className="w-10 h-10 rounded-lg overflow-hidden flex-shrink-0">
+                  <img src={getAlbumArt(currentTrack.category)} alt="" className="w-full h-full object-cover" />
                 </div>
                 <div className="overflow-hidden">
                   <h4 className="text-white text-sm font-medium truncate">{currentTrack.title}</h4>
-                  <p className="text-white/50 text-xs truncate capitalize">{currentTrack.category}</p>
+                  <p className="text-white/50 text-xs truncate capitalize">{currentTrack.category.replace('_', ' ')}</p>
                 </div>
               </div>
 
@@ -114,7 +139,7 @@ export const MusicPlayer: React.FC = () => {
               <div className="absolute bottom-0 left-3 right-3 h-0.5 bg-white/10 overflow-hidden rounded-full">
                 <div 
                   className="h-full bg-calm-green transition-all duration-300" 
-                  style={{ width: `${(progress / (duration || 1)) * 100}%` }}
+                  style={{ width: `${(progress / (isPremium ? (duration || 1) : 30)) * 100}%` }}
                 />
               </div>
             </div>
@@ -146,28 +171,28 @@ export const MusicPlayer: React.FC = () => {
               <motion.div 
                 animate={{ scale: isPlaying ? 1 : 0.9, rotate: isPlaying ? [0, 1, -1, 0] : 0 }}
                 transition={{ duration: 4, repeat: Infinity, repeatType: "reverse" }}
-                className="w-full max-w-[280px] aspect-square rounded-[32px] bg-gradient-to-br from-calm-green/20 via-blue-600/20 to-purple-600/20 border border-white/10 shadow-2xl flex items-center justify-center relative overflow-hidden mb-12"
+                className="w-full max-w-[280px] aspect-square rounded-[32px] border border-white/10 shadow-2xl relative overflow-hidden mb-12"
               >
-                {/* Decorative glows */}
-                <div className="absolute inset-0 bg-radial-gradient from-white/10 to-transparent" />
-                <Volume2 size={80} className="text-white/20" />
+                <img src={getAlbumArt(currentTrack.category)} alt="" className="w-full h-full object-cover" />
+                <div className="absolute inset-0 bg-black/20" />
                 
                 {/* Visualizer bars placeholder */}
-                <div className="absolute bottom-8 flex items-end space-x-1">
+                <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex items-end space-x-1">
                   {[...Array(8)].map((_, i) => (
                     <motion.div 
                       key={i}
                       animate={{ height: isPlaying ? [10, Math.random() * 40 + 10, 10] : 4 }}
                       transition={{ duration: 0.5 + Math.random(), repeat: Infinity }}
-                      className="w-1.5 bg-calm-green rounded-full opacity-60"
+                      className="w-1.5 bg-white/60 rounded-full"
                     />
                   ))}
                 </div>
               </motion.div>
 
               <div className="text-center w-full mb-10">
-                <h2 className="text-2xl font-bold mb-2">{currentTrack.title}</h2>
-                <p className="text-white/50">{currentTrack.description}</p>
+                <h2 className="text-2xl font-bold mb-2 font-serif">{currentTrack.title}</h2>
+                <p className="text-white/50 text-sm">{currentTrack.description}</p>
+                {!isPremium && <p className="text-amber-400/80 text-[10px] mt-4 font-bold uppercase tracking-wider italic">Preview Mode — 30 Seconds</p>}
               </div>
 
               {/* Progress Slider */}
@@ -175,14 +200,14 @@ export const MusicPlayer: React.FC = () => {
                 <input 
                   type="range"
                   min="0"
-                  max={duration || 100}
+                  max={isPremium ? (duration || 100) : 30}
                   value={progress}
                   onChange={handleSeek}
                   className="w-full h-1 bg-white/10 rounded-full appearance-none accent-calm-green cursor-pointer"
                 />
                 <div className="flex justify-between text-[11px] font-medium text-white/30 font-mono">
                   <span>{formatTime(progress)}</span>
-                  <span>{formatTime(duration)}</span>
+                  <span>{formatTime(isPremium ? duration : 30)}</span>
                 </div>
               </div>
 
