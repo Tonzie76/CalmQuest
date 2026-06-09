@@ -10,16 +10,23 @@ import { Link } from 'react-router-dom';
 export default function Progress() {
   const { user } = useAuthStore();
   const isPremium = user?.tier && user.tier !== 'free';
+  const statsData = user?.stats || {
+    streak: 0,
+    sessions: 0,
+    minutes: 0,
+    gamesPlayed: 0,
+    inspirationsSaved: 0
+  };
 
-  // Mock data for the view
   const stats = [
-    { label: 'Day Streak', value: '7', icon: <Flame className="text-orange-500" /> },
-    { label: 'Sessions', value: '23', icon: <Target className="text-primary-500" /> },
-    { label: 'Minutes', value: '185', icon: <Timer className="text-secondary-500" /> },
+    { label: 'Day Streak', value: statsData.streak.toString(), icon: <Flame className="text-orange-500" /> },
+    { label: 'Sessions', value: statsData.sessions.toString(), icon: <Target className="text-primary-500" /> },
+    { label: 'Minutes', value: statsData.minutes.toString(), icon: <Timer className="text-secondary-500" /> },
   ];
 
   const weekDays = ['M', 'T', 'W', 'T', 'F', 'S', 'S'];
-  const streakData = [true, true, true, true, false, false, false];
+  // Simplified logic for a demo: current streak fills the days from the start of the week
+  const streakData = weekDays.map((_, i) => i < (statsData.streak % 8));
 
   const activityData = [
     { label: 'Mon', value: 40 },
@@ -32,24 +39,24 @@ export default function Progress() {
   ];
 
   const categories = [
-    { name: 'Inspirations', value: 15, total: 20, icon: <Sparkles size={16} />, color: 'bg-accent-300' },
-    { name: 'Games', value: 12, total: 20, icon: <Gamepad2 size={16} />, color: 'bg-primary-400' },
-    { name: 'Music', value: 9, total: 20, icon: <Music size={16} />, color: 'bg-secondary-400' },
+    { name: 'Inspirations', value: statsData.inspirationsSaved, total: 20, icon: <Sparkles size={16} />, color: 'bg-accent-300' },
+    { name: 'Games', value: statsData.gamesPlayed, total: 20, icon: <Gamepad2 size={16} />, color: 'bg-primary-400' },
+    { name: 'Music', value: Math.floor(statsData.sessions / 3), total: 20, icon: <Music size={16} />, color: 'bg-secondary-400' },
   ];
 
   const achievements = [
-    { name: 'First Calm', icon: '🌟', earned: true },
-    { name: 'Week Streak', icon: '🔥', earned: true },
-    { name: 'Mindful Hour', icon: '🧠', earned: true },
-    { name: '30-Day Streak', icon: '🏆', earned: false },
-    { name: 'Deep Breath', icon: '🌊', earned: false },
-    { name: 'Puzzle Master', icon: '🧩', earned: false },
+    { name: 'First Calm', icon: '🌟', earned: statsData.sessions > 0 },
+    { name: 'Week Streak', icon: '🔥', earned: statsData.streak >= 7 },
+    { name: 'Mindful Hour', icon: '🧠', earned: statsData.minutes >= 60 },
+    { name: '30-Day Streak', icon: '🏆', earned: statsData.streak >= 30 },
+    { name: 'Deep Breath', icon: '🌊', earned: statsData.gamesPlayed >= 5 },
+    { name: 'Puzzle Master', icon: '🧩', earned: statsData.gamesPlayed >= 10 },
   ];
 
   return (
     <div className="min-h-screen bg-calm-mist/30 pb-24">
       <div className="max-w-md mx-auto px-6 pt-12">
-        <header className="mb-8">
+        <header className="mb-8 text-center md:text-left">
           <h1 className="text-3xl font-heading font-bold text-primary-700">Your Progress</h1>
           <p className="text-calm-stone text-sm">Celebrate your calm journey</p>
         </header>
@@ -80,11 +87,9 @@ export default function Progress() {
               <div key={i} className="flex flex-col items-center gap-2">
                 <span className="text-[10px] font-bold text-calm-stone">{day}</span>
                 <div className={`w-10 h-10 rounded-full flex items-center justify-center text-sm transition-all ${
-                  i === 3 ? 'ring-2 ring-primary-500 ring-offset-2' : ''
-                } ${
                   streakData[i] 
                     ? 'bg-primary-500 text-white shadow-lg shadow-primary-500/20' 
-                    : i < 3 ? 'bg-primary-100 text-primary-300' : 'bg-calm-mist/30 text-calm-stone/30'
+                    : 'bg-calm-mist/30 text-calm-stone/30'
                 }`}>
                   {streakData[i] ? <CheckCircle2 size={18} /> : i + 1}
                 </div>

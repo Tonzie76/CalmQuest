@@ -7,6 +7,13 @@ interface User {
   name: string;
   tier: 'free' | 'premium_monthly' | 'premium_yearly';
   joinDate: string;
+  stats: {
+    streak: number;
+    sessions: number;
+    minutes: number;
+    gamesPlayed: number;
+    inspirationsSaved: number;
+  };
 }
 
 interface AuthState {
@@ -16,6 +23,7 @@ interface AuthState {
   login: (email: string, name: string) => Promise<void>;
   logout: () => void;
   upgradeTier: (tier: 'premium_monthly' | 'premium_yearly') => void;
+  updateStats: (stats: Partial<User['stats']>) => void;
 }
 
 export const useAuthStore = create<AuthState>()(
@@ -34,7 +42,14 @@ export const useAuthStore = create<AuthState>()(
             email, 
             name, 
             tier: 'free',
-            joinDate: new Date().toISOString().split('T')[0]
+            joinDate: new Date().toISOString().split('T')[0],
+            stats: {
+              streak: 7,
+              sessions: 23,
+              minutes: 185,
+              gamesPlayed: 12,
+              inspirationsSaved: 15
+            }
           }, 
           isAuthenticated: true,
           isLoading: false 
@@ -46,6 +61,14 @@ export const useAuthStore = create<AuthState>()(
       upgradeTier: (tier) => {
         set((state) => ({
           user: state.user ? { ...state.user, tier } : null
+        }));
+      },
+      updateStats: (newStats) => {
+        set((state) => ({
+          user: state.user ? { 
+            ...state.user, 
+            stats: { ...state.user.stats, ...newStats } 
+          } : null
         }));
       }
     }),
