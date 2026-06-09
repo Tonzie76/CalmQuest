@@ -1,0 +1,70 @@
+{
+  "description": "Push notification templates for Calm Quest — daily reminders, streak celebrations, and gentle nudges",
+  "total_templates": 7,
+  "templates": [
+    {
+      "id": "notif-001",
+      "title": "Daily Inspiration Ready",
+      "body": "Your daily affirmation is waiting. 🌿 Take a moment to read, breathe, and begin your day with intention.",
+      "trigger": "daily_morning",
+      "frequency": "daily",
+      "suggested_time": "08:00",
+      "target_screen": "/inspirations"
+    },
+    {
+      "id": "notif-002",
+      "title": "Time to Breathe",
+      "body": "Three deep breaths can change your whole state. 🫁 Let's take a minute together — you deserve this pause.",
+      "trigger": "time_based",
+      "frequency": "daily",
+      "suggested_time": "14:00",
+      "target_screen": "/games"
+    },
+    {
+      "id": "notif-003",
+      "title": "Wind Down",
+      "body": "The day is fading. 🎵 Let a calming soundscape carry you into the evening. Pick one and let go.",
+      "trigger": "daily_evening",
+      "frequency": "daily",
+      "suggested_time": "21:00",
+      "target_screen": "/music"
+    },
+    {
+      "id": "notif-004",
+      "title": "Streak Alert — 🔥 3 Days!",
+      "body": "Three days of calm in a row! You're building a beautiful habit. Come back today to keep the streak alive.",
+      "trigger": "streak_milestone",
+      "frequency": "event_based",
+      "conditions": "user.streak == 3",
+      "target_screen": "/home"
+    },
+    {
+      "id": "notif-005",
+      "title": "Streak Alert — 🔥 7 Days!",
+      "body": "One full week of Calm Quest! That's 7 days of showing up for yourself. Celebrate this moment — you've earned it.",
+      "trigger": "streak_milestone",
+      "frequency": "event_based",
+      "conditions": "user.streak == 7",
+      "target_screen": "/home"
+    },
+    {
+      "id": "notif-006",
+      "title": "We Miss You",
+      "body": "It's been a few days. 🌱 However you're feeling, there's no judgment here — just a gentle invitation to come back and take a moment for yourself.",
+      "trigger": "inactivity",
+      "frequency": "event_based",
+      "conditions": "user.days_since_last_visit >= 3",
+      "target_screen": "/inspirations"
+    },
+    {
+      "id": "notif-007",
+      "title": "Try Premium Free",
+      "body": "Unlock everything Calm Quest has to offer — all soundscapes, unlimited games, no ads. Start your 7-day free trial today. ✨",
+      "trigger": "user_action",
+      "frequency": "one_time",
+      "conditions": "user.tier == 'free' && user.trial_eligible == true",
+      "target_screen": "/pricing"
+    }
+  ],
+  "notes": "All notification bodies should feel like a gentle tap on the shoulder, not a loud alarm. Use emojis sparingly and meaningfully. Never guilt-trip the user."
+}

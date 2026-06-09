@@ -1,0 +1,414 @@
+{
+  "description": "Daily inspirations for Calm Quest — affirmations, uplifting quotes, and mindfulness prompts",
+  "total_entries": 65,
+  "entries": [
+    {
+      "id": "insp-001",
+      "type": "affirmation",
+      "text": "I am calm and in control of my breath.",
+      "tags": ["calm", "breath", "presence"]
+    },
+    {
+      "id": "insp-002",
+      "type": "affirmation",
+      "text": "This moment is all I need to be at peace.",
+      "tags": ["peace", "present", "calm"]
+    },
+    {
+      "id": "insp-003",
+      "type": "affirmation",
+      "text": "I release what I cannot control and focus on what I can.",
+      "tags": ["control", "release", "acceptance"]
+    },
+    {
+      "id": "insp-004",
+      "type": "affirmation",
+      "text": "My body is relaxed, my mind is clear, my heart is open.",
+      "tags": ["relaxation", "clarity", "openness"]
+    },
+    {
+      "id": "insp-005",
+      "type": "affirmation",
+      "text": "I am safe in this moment, exactly as I am.",
+      "tags": ["safety", "acceptance", "presence"]
+    },
+    {
+      "id": "insp-006",
+      "type": "affirmation",
+      "text": "Every breath I take fills me with peace.",
+      "tags": ["breath", "peace", "calm"]
+    },
+    {
+      "id": "insp-007",
+      "type": "affirmation",
+      "text": "My thoughts do not define me. I am the awareness behind them.",
+      "tags": ["awareness", "thoughts", "mindfulness"]
+    },
+    {
+      "id": "insp-008",
+      "type": "affirmation",
+      "text": "I choose calm over chaos, one breath at a time.",
+      "tags": ["calm", "choice", "breath"]
+    },
+    {
+      "id": "insp-009",
+      "type": "affirmation",
+      "text": "I trust myself to handle whatever comes my way.",
+      "tags": ["trust", "confidence", "resilience"]
+    },
+    {
+      "id": "insp-010",
+      "type": "affirmation",
+      "text": "My heart beats steadily. My breath flows freely. I am at ease.",
+      "tags": ["calm", "body", "ease"]
+    },
+    {
+      "id": "insp-011",
+      "type": "affirmation",
+      "text": "I give myself permission to slow down.",
+      "tags": ["rest", "slowing", "self-compassion"]
+    },
+    {
+      "id": "insp-012",
+      "type": "affirmation",
+      "text": "Today, I choose to be gentle with myself.",
+      "tags": ["gentleness", "self-care", "kindness"]
+    },
+    {
+      "id": "insp-013",
+      "type": "affirmation",
+      "text": "Anxiety is a visitor, not the owner of my home.",
+      "tags": ["anxiety", "perspective", "strength"]
+    },
+    {
+      "id": "insp-014",
+      "type": "affirmation",
+      "text": "I am capable of handling challenges with grace.",
+      "tags": ["capability", "grace", "resilience"]
+    },
+    {
+      "id": "insp-015",
+      "type": "affirmation",
+      "text": "My mind can be still. My heart can be light.",
+      "tags": ["stillness", "lightness", "peace"]
+    },
+    {
+      "id": "insp-016",
+      "type": "affirmation",
+      "text": "I breathe in courage and breathe out fear.",
+      "tags": ["courage", "fear", "breath"]
+    },
+    {
+      "id": "insp-017",
+      "type": "affirmation",
+      "text": "Each morning, I am renewed. Each night, I am restored.",
+      "tags": ["renewal", "rest", "daily"]
+    },
+    {
+      "id": "insp-018",
+      "type": "affirmation",
+      "text": "Peace begins with me.",
+      "tags": ["peace", "self", "simplicity"]
+    },
+    {
+      "id": "insp-019",
+      "type": "affirmation",
+      "text": "I am worthy of rest, peace, and happiness.",
+      "tags": ["worthiness", "rest", "happiness"]
+    },
+    {
+      "id": "insp-020",
+      "type": "affirmation",
+      "text": "I let go of tension in my body and welcome relaxation.",
+      "tags": ["tension", "relaxation", "body"]
+    },
+    {
+      "id": "insp-021",
+      "type": "affirmation",
+      "text": "My potential is limitless when I am at peace.",
+      "tags": ["potential", "peace", "growth"]
+    },
+    {
+      "id": "insp-022",
+      "type": "affirmation",
+      "text": "I am grateful for this moment of stillness.",
+      "tags": ["gratitude", "stillness", "presence"]
+    },
+    {
+      "id": "insp-023",
+      "type": "affirmation",
+      "text": "My breath is my anchor in any storm.",
+      "tags": ["breath", "anchor", "stability"]
+    },
+    {
+      "id": "insp-024",
+      "type": "affirmation",
+      "text": "I am enough, just as I am, right now.",
+      "tags": ["enough", "self-acceptance", "presence"]
+    },
+    {
+      "id": "insp-025",
+      "type": "affirmation",
+      "text": "I embrace uncertainty with an open heart.",
+      "tags": ["uncertainty", "openness", "courage"]
+    },
+    {
+      "id": "insp-026",
+      "type": "quote",
+      "text": "The present moment is filled with joy and happiness. If you are attentive, you will see it. — Thich Nhat Hanh",
+      "author": "Thich Nhat Hanh",
+      "tags": ["presence", "joy", "happiness"]
+    },
+    {
+      "id": "insp-027",
+      "type": "quote",
+      "text": "Almost everything will work again if you unplug it for a few minutes, including you. — Anne Lamott",
+      "author": "Anne Lamott",
+      "tags": ["rest", "reset", "humor"]
+    },
+    {
+      "id": "insp-028",
+      "type": "quote",
+      "text": "You don't have to control your thoughts. You just have to stop letting them control you. — Dan Millman",
+      "author": "Dan Millman",
+      "tags": ["thoughts", "control", "freedom"]
+    },
+    {
+      "id": "insp-029",
+      "type": "quote",
+      "text": "Feelings come and go like clouds in a windy sky. Conscious breathing is my anchor. — Thich Nhat Hanh",
+      "author": "Thich Nhat Hanh",
+      "tags": ["feelings", "breath", "anchor"]
+    },
+    {
+      "id": "insp-030",
+      "type": "quote",
+      "text": "Nature does not hurry, yet everything is accomplished. — Lao Tzu",
+      "author": "Lao Tzu",
+      "tags": ["nature", "patience", "trust"]
+    },
+    {
+      "id": "insp-031",
+      "type": "quote",
+      "text": "Within you, there is a stillness and a sanctuary to which you can retreat at any time. — Hermann Hesse",
+      "author": "Hermann Hesse",
+      "tags": ["stillness", "sanctuary", "inner-peace"]
+    },
+    {
+      "id": "insp-032",
+      "type": "quote",
+      "text": "The greatest weapon against stress is our ability to choose one thought over another. — William James",
+      "author": "William James",
+      "tags": ["stress", "choice", "perspective"]
+    },
+    {
+      "id": "insp-033",
+      "type": "quote",
+      "text": "Peace is not the absence of chaos, but the presence of calm within the chaos.",
+      "tags": ["peace", "calm", "chaos"]
+    },
+    {
+      "id": "insp-034",
+      "type": "quote",
+      "text": "Sometimes the most productive thing you can do is relax. — Mark Black",
+      "author": "Mark Black",
+      "tags": ["productivity", "rest", "relaxation"]
+    },
+    {
+      "id": "insp-035",
+      "type": "quote",
+      "text": "Breathe. Let go. And remind yourself that this very moment is the only one you know you have. — Oprah Winfrey",
+      "author": "Oprah Winfrey",
+      "tags": ["breath", "letting-go", "presence"]
+    },
+    {
+      "id": "insp-036",
+      "type": "quote",
+      "text": "Quiet the mind, and the soul will speak. — Ma Jaya Sati Bhagavati",
+      "author": "Ma Jaya Sati Bhagavati",
+      "tags": ["quiet", "mind", "soul"]
+    },
+    {
+      "id": "insp-037",
+      "type": "quote",
+      "text": "The mind is everything. What you think you become. — Buddha",
+      "author": "Buddha",
+      "tags": ["mind", "thought", "becoming"]
+    },
+    {
+      "id": "insp-038",
+      "type": "quote",
+      "text": "In the midst of movement and chaos, keep stillness inside of you. — Deepak Chopra",
+      "author": "Deepak Chopra",
+      "tags": ["stillness", "chaos", "inner-peace"]
+    },
+    {
+      "id": "insp-039",
+      "type": "quote",
+      "text": "Adopt the pace of nature: her secret is patience. — Ralph Waldo Emerson",
+      "author": "Ralph Waldo Emerson",
+      "tags": ["nature", "patience", "pace"]
+    },
+    {
+      "id": "insp-040",
+      "type": "quote",
+      "text": "Anxiety does not empty tomorrow of its sorrows, but only empties today of its strength. — Charles Spurgeon",
+      "author": "Charles Spurgeon",
+      "tags": ["anxiety", "strength", "perspective"]
+    },
+    {
+      "id": "insp-041",
+      "type": "quote",
+      "text": "Smile, breathe, and go slowly. — Thich Nhat Hanh",
+      "author": "Thich Nhat Hanh",
+      "tags": ["smile", "breath", "slow"]
+    },
+    {
+      "id": "insp-042",
+      "type": "quote",
+      "text": "Be where you are, not where you think you should be.",
+      "tags": ["presence", "acceptance", "now"]
+    },
+    {
+      "id": "insp-043",
+      "type": "quote",
+      "text": "Nothing is permanent — not even your worries. This too shall pass.",
+      "tags": ["impermanence", "hope", "perspective"]
+    },
+    {
+      "id": "insp-044",
+      "type": "mindfulness_prompt",
+      "text": "Pause for a moment. Notice three things you can hear right now. Listen deeply to each one.",
+      "tags": ["listening", "awareness", "senses"]
+    },
+    {
+      "id": "insp-045",
+      "type": "mindfulness_prompt",
+      "text": "Close your eyes and feel your feet on the ground. Notice the points of contact between your body and the earth.",
+      "tags": ["grounding", "body", "awareness"]
+    },
+    {
+      "id": "insp-046",
+      "type": "mindfulness_prompt",
+      "text": "Take one slow breath. As you inhale, imagine breathing in calm. As you exhale, imagine releasing tension.",
+      "tags": ["breath", "visualization", "calm"]
+    },
+    {
+      "id": "insp-047",
+      "type": "mindfulness_prompt",
+      "text": "Look around you and find something blue. Rest your eyes on it for five seconds and breathe.",
+      "tags": ["observation", "visual", "presence"]
+    },
+    {
+      "id": "insp-048",
+      "type": "mindfulness_prompt",
+      "text": "Notice the temperature of the air around you. Is it warm or cool? Feel it on your skin.",
+      "tags": ["senses", "body", "awareness"]
+    },
+    {
+      "id": "insp-049",
+      "type": "mindfulness_prompt",
+      "text": "Take a sip of water (or any drink) and feel the sensation — the temperature, texture, taste. Be fully present with this simple act.",
+      "tags": ["senses", "eating", "presence"]
+    },
+    {
+      "id": "insp-050",
+      "type": "mindfulness_prompt",
+      "text": "Roll your shoulders slowly backward three times. Notice how it feels to release tension through movement.",
+      "tags": ["body", "movement", "tension-release"]
+    },
+    {
+      "id": "insp-051",
+      "type": "mindfulness_prompt",
+      "text": "Place your hand over your heart. Take three deep breaths, feeling the rise and fall of your chest.",
+      "tags": ["heart", "breath", "self-compassion"]
+    },
+    {
+      "id": "insp-052",
+      "type": "mindfulness_prompt",
+      "text": "Name one thing you can see that brings you joy. Let yourself feel that joy for a moment.",
+      "tags": ["joy", "gratitude", "observation"]
+    },
+    {
+      "id": "insp-053",
+      "type": "mindfulness_prompt",
+      "text": "As you breathe in, think 'I am calm.' As you breathe out, think 'I am here.' Repeat five times.",
+      "tags": ["mantra", "breath", "presence"]
+    },
+    {
+      "id": "insp-054",
+      "type": "mindfulness_prompt",
+      "text": "Without judgment, notice what you're feeling right now. Simply name it — sad, anxious, tired, happy — and let it be.",
+      "tags": ["emotions", "acceptance", "non-judgment"]
+    },
+    {
+      "id": "insp-055",
+      "type": "mindfulness_prompt",
+      "text": "Touch something near you — a fabric, a leaf, a glass. Feel its texture with full attention for ten seconds.",
+      "tags": ["touch", "senses", "awareness"]
+    },
+    {
+      "id": "insp-056",
+      "type": "affirmation",
+      "text": "I welcome each new breath as a fresh start.",
+      "tags": ["fresh-start", "breath", "beginnings"]
+    },
+    {
+      "id": "insp-057",
+      "type": "affirmation",
+      "text": "I am the calm in my own storm.",
+      "tags": ["calm", "strength", "inner-peace"]
+    },
+    {
+      "id": "insp-058",
+      "type": "quote",
+      "text": "The best way to capture moments is to pay attention. This is how we cultivate mindfulness. — Jon Kabat-Zinn",
+      "author": "Jon Kabat-Zinn",
+      "tags": ["attention", "mindfulness", "moments"]
+    },
+    {
+      "id": "insp-059",
+      "type": "quote",
+      "text": "Stress is not what happens to us. It's our response to what happens. And response is something we can choose. — Maureen Killoran",
+      "author": "Maureen Killoran",
+      "tags": ["stress", "response", "choice"]
+    },
+    {
+      "id": "insp-060",
+      "type": "mindfulness_prompt",
+      "text": "For the next minute, let your thoughts drift like clouds across the sky. Don't hold on to any — just watch them pass.",
+      "tags": ["thoughts", "observation", "letting-go"]
+    },
+    {
+      "id": "insp-061",
+      "type": "affirmation",
+      "text": "I nourish my mind with peaceful thoughts.",
+      "tags": ["nourishment", "mind", "peace"]
+    },
+    {
+      "id": "insp-062",
+      "type": "affirmation",
+      "text": "With every breath, I choose peace over panic.",
+      "tags": ["choice", "peace", "calm"]
+    },
+    {
+      "id": "insp-063",
+      "type": "quote",
+      "text": "Mindfulness isn't difficult, we just need to remember to do it. — Sharon Salzberg",
+      "author": "Sharon Salzberg",
+      "tags": ["mindfulness", "simplicity", "practice"]
+    },
+    {
+      "id": "insp-064",
+      "type": "mindfulness_prompt",
+      "text": "Imagine a gentle light surrounding you. With each inhale, it grows brighter. With each exhale, it wraps you in warmth and safety.",
+      "tags": ["visualization", "safety", "warmth"]
+    },
+    {
+      "id": "insp-065",
+      "type": "quote",
+      "text": "Be kind to your mind. It's the only one you've got.",
+      "tags": ["kindness", "mind", "self-care"]
+    }
+  ]
+}
