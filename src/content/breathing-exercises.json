@@ -1,0 +1,168 @@
+{
+  "description": "Breathing exercise scripts for Calm Quest — guided breathing and relaxation exercises",
+  "total_exercises": 6,
+  "exercises": [
+    {
+      "id": "breath-001",
+      "title": "4-7-8 Breathing",
+      "subtitle": "The Relaxing Breath",
+      "duration_seconds": 120,
+      "cycles": 4,
+      "pattern": {
+        "inhale": 4,
+        "hold": 7,
+        "exhale": 8
+      },
+      "category": "breathing",
+      "difficulty": "intermediate",
+      "benefits": ["reduces anxiety", "helps with sleep", "calms nervous system"],
+      "script_steps": [
+        "Find a comfortable seated position and close your eyes.",
+        "Place the tip of your tongue behind your upper front teeth and keep it there throughout the exercise.",
+        "Exhale completely through your mouth, making a whoosh sound.",
+        "Close your mouth and inhale quietly through your nose for a count of 4.",
+        "Hold your breath for a count of 7.",
+        "Exhale completely through your mouth with a whoosh sound for a count of 8.",
+        "This completes one breath cycle. Repeat three more times.",
+        "As you practice, let each exhale be a complete release of tension.",
+        "Your mind may wander — that's okay. Simply return your focus to the count."
+      ],
+      "closing": "Gently open your eyes. Notice how calm and relaxed your body feels."
+    },
+    {
+      "id": "breath-002",
+      "title": "Box Breathing",
+      "subtitle": "Square Breathing — The Navy SEAL Technique",
+      "duration_seconds": 120,
+      "cycles": 5,
+      "pattern": {
+        "inhale": 4,
+        "hold": 4,
+        "exhale": 4,
+        "hold_empty": 4
+      },
+      "category": "breathing",
+      "difficulty": "beginner",
+      "benefits": ["stress relief", "improves focus", "emotional regulation"],
+      "script_steps": [
+        "Sit up tall with your shoulders relaxed and both feet flat on the floor.",
+        "Close your eyes or soften your gaze.",
+        "Visualize a square in your mind. Each side represents a count of four.",
+        "Inhale slowly through your nose for a count of 4 — travel up the first side of the square.",
+        "Hold your breath for a count of 4 — travel across the top of the square.",
+        "Exhale slowly through your mouth for a count of 4 — travel down the right side.",
+        "Hold your lungs empty for a count of 4 — travel across the bottom of the square.",
+        "You have completed one side of the square. Continue for four more rounds.",
+        "Let each breath be smooth and even — like the sides of a perfect square.",
+        "If you lose count, simply start again at the next breath."
+      ],
+      "closing": "When you're ready, release the visualization and take one natural breath. Notice the stillness within you."
+    },
+    {
+      "id": "breath-003",
+      "title": "Simple Deep Breathing",
+      "subtitle": "Belly Breathing Basics",
+      "duration_seconds": 90,
+      "cycles": 6,
+      "pattern": {
+        "inhale": 4,
+        "exhale": 6
+      },
+      "category": "breathing",
+      "difficulty": "beginner",
+      "benefits": ["immediate calm", "lowers heart rate", "gentle start"],
+      "script_steps": [
+        "Find a comfortable position — lying down is wonderful for this exercise.",
+        "Place one hand on your belly and one hand on your chest.",
+        "Without changing your breath, just notice which hand rises more as you breathe.",
+        "Now begin to breathe deeply into your belly, feeling your lower hand rise with each inhale.",
+        "Inhale slowly through your nose for a count of 4, letting your belly fill like a balloon.",
+        "Pause gently at the top of your breath.",
+        "Exhale slowly through your mouth for a count of 6, feeling your belly fall.",
+        "Let your exhale be longer than your inhale — this activates your relaxation response.",
+        "With each exhale, imagine releasing any tension you're holding.",
+        "Continue for six deep, nourishing breaths."
+      ],
+      "closing": "Release your hands to your sides. Take one natural breath. Notice how your body has softened."
+    },
+    {
+      "id": "breath-004",
+      "title": "Progressive Muscle Relaxation",
+      "subtitle": "Release Tension Throughout Your Body",
+      "duration_seconds": 360,
+      "category": "relaxation",
+      "difficulty": "beginner",
+      "benefits": ["releases physical tension", "improves body awareness", "helps with sleep"],
+      "script_steps": [
+        "Lie down or sit comfortably with your arms uncrossed and legs uncrossed.",
+        "Close your eyes and take three deep, grounding breaths.",
+        "We will systematically tense and release each muscle group. Tense for 5 seconds, then release for 10.",
+        "Begin with your feet — curl your toes tightly, hold, and release. Feel the difference between tension and relaxation.",
+        "Move to your calves — flex your feet upward, feel the pull in your calves, hold, and release.",
+        "Now your thighs — squeeze your thigh muscles tight, hold, and let them soften completely.",
+        "Tense your abdomen by pulling your belly button toward your spine. Hold and release.",
+        "Clench your hands into fists. Squeeze tightly, hold, and let them fall open.",
+        "Tense your arms — bend at the elbows and make a muscle. Hold and release, letting your arms fall heavy.",
+        "Shrug your shoulders up toward your ears as high as you can. Hold the tension and release with a sigh.",
+        "Tense your face — scrunch your eyes, clench your jaw, squeeze everything tight. Hold and release completely.",
+        "Now take a full-body scan. Breathe into any remaining tightness and let it dissolve."
+      ],
+      "closing": "Lie still for a moment. Feel the weight of your fully relaxed body. Notice how light and calm you feel."
+    },
+    {
+      "id": "breath-005",
+      "title": "Body Scan Meditation",
+      "subtitle": "Full Awareness Journey",
+      "duration_seconds": 480,
+      "category": "meditation",
+      "difficulty": "intermediate",
+      "benefits": ["deep relaxation", "body awareness", "mindfulness practice"],
+      "script_steps": [
+        "Lie down on your back with your arms at your sides, palms facing up.",
+        "Close your eyes and take three slow, settling breaths.",
+        "Bring your awareness to the top of your head. Notice any sensations — warmth, tingling, or simply the presence of your scalp.",
+        "Slowly move your attention to your forehead and eyes. Notice if they feel tight or soft. Let them soften.",
+        "Bring awareness to your jaw — this is a common place to hold tension. Let your jaw drop slightly, teeth apart.",
+        "Move your awareness down to your neck and throat. Breathe into any tightness here.",
+        "Notice your shoulders — are they lifted or relaxed? Imagine them melting into the floor.",
+        "Bring attention to your arms, moving down to your elbows, forearms, wrists, and fingertips. Notice the energy flowing through.",
+        "Shift your awareness to your chest and upper back. Feel the gentle rise and fall with each breath.",
+        "Bring attention to your abdomen. Notice it expanding and contracting naturally.",
+        "Move to your lower back and hips. Imagine your breath flowing into this area, softening it.",
+        "Bring awareness to your thighs, knees, calves, and all the way down to your feet.",
+        "Feel your toes — wiggle them slightly. Feel your feet making contact with the ground.",
+        "Now expand your awareness to your entire body — a complete field of sensation from head to toe.",
+        "Rest here for a few more breaths, feeling whole and present."
+      ],
+      "closing": "Slowly begin to wiggle your fingers and toes. Gently roll to one side and rest for a moment before coming to sit."
+    },
+    {
+      "id": "breath-006",
+      "title": "Ocean Breath",
+      "subtitle": "Ujjayi Pranayama — The Victorious Breath",
+      "duration_seconds": 150,
+      "cycles": 10,
+      "pattern": {
+        "inhale": 4,
+        "exhale": 6
+      },
+      "category": "breathing",
+      "difficulty": "intermediate",
+      "benefits": ["calms the mind", "warms the body", "deepens focus"],
+      "script_steps": [
+        "Sit comfortably with your spine tall and your shoulders relaxed.",
+        "Close your eyes and bring your awareness to your breath without changing it.",
+        "Take a deep inhale through your nose. As you exhale, open your mouth and make a 'HAAAH' sound — like you're fogging up a mirror.",
+        "Try again: exhale with that 'HAAAH' sound, feeling the breath pass through your throat.",
+        "Now close your mouth. Inhale and exhale through your nose while gently constricting the back of your throat.",
+        "The sound should resemble ocean waves — a soft, steady 'sssss' sound on the inhale and 'hhhhh' on the exhale.",
+        "If it helps, imagine you're trying to whisper the sound 'AH' with your mouth closed.",
+        "Find a steady rhythm: inhale for 4 counts with the ocean sound, exhale for 6 counts with the ocean sound.",
+        "Let your breath be smooth and continuous — like waves rolling onto shore and receding back.",
+        "Continue for 10 full breaths, letting each wave of breath carry you deeper into calm.",
+        "If your throat feels strained, soften the constriction. The sound should be gentle and effortless."
+      ],
+      "closing": "Release the throat constriction and return to your natural breath. Notice the calm and spaciousness within you."
+    }
+  ]
+}

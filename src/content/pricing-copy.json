@@ -1,0 +1,153 @@
+{
+  "description": "Pricing page copy for Calm Quest — feature comparison, trial messaging, and CTAs",
+  "trial": {
+    "duration_days": 7,
+    "headline": "Experience full calm — free for 7 days.",
+    "subheadline": "No commitment. No risk. Just peace.",
+    "body": "Try every feature Calm Quest has to offer with zero strings attached. If it's not for you, cancel before your trial ends and you'll never be charged. Simple.",
+    "cta": "Start Your Free Trial",
+    "cta_subtext": "Cancel anytime. No questions asked.",
+    "post_trial_headline": "Loved the calm? Keep it going.",
+    "post_trial_body": "Your trial is over, but your calm journey doesn't have to be. Choose the plan that fits your life and continue building your daily peace practice."
+  },
+  "plans": {
+    "free": {
+      "name": "Free",
+      "price": "$0",
+      "period": "forever",
+      "headline": "Start your journey",
+      "description": "Everything you need to begin finding calm, with gentle limits.",
+      "cta": "Get Started Free",
+      "features": [
+        {
+          "text": "1 daily inspiration",
+          "included": true
+        },
+        {
+          "text": "1 therapeutic mini-game per day",
+          "included": true
+        },
+        {
+          "text": "Limited calming tracks (5 soundscapes)",
+          "included": true
+        },
+        {
+          "text": "Ad-supported experience",
+          "included": true
+        },
+        {
+          "text": "Basic progress tracking",
+          "included": true
+        },
+        {
+          "text": "Unlimited inspirations",
+          "included": false
+        },
+        {
+          "text": "Unlimited mini-games",
+          "included": false
+        },
+        {
+          "text": "Full music library (20+ soundscapes)",
+          "included": false
+        },
+        {
+          "text": "Ad-free experience",
+          "included": false
+        },
+        {
+          "text": "Advanced progress insights & streaks",
+          "included": false
+        }
+      ]
+    },
+    "premium_monthly": {
+      "name": "Premium Monthly",
+      "price": "$4.99",
+      "period": "per month",
+      "headline": "Deepen your practice",
+      "description": "Unlock everything. No limits. No ads. Just calm.",
+      "cta": "Try Free for 7 Days",
+      "features": [
+        {
+          "text": "Unlimited daily inspirations",
+          "included": true
+        },
+        {
+          "text": "Unlimited therapeutic mini-games",
+          "included": true
+        },
+        {
+          "text": "Full music library (20+ soundscapes)",
+          "included": true
+        },
+        {
+          "text": "Ad-free experience",
+          "included": true
+        },
+        {
+          "text": "Advanced progress insights & streaks",
+          "included": true
+        },
+        {
+          "text": "Binaural beats & white noise",
+          "included": true
+        },
+        {
+          "text": "Priority new content access",
+          "included": true
+        }
+      ]
+    },
+    "premium_yearly": {
+      "name": "Premium Yearly",
+      "price": "$39.99",
+      "period": "per year",
+      "headline": "Best value — commit to your calm",
+      "description": "Over 33% savings compared to monthly, plus exclusive yearly-only content drops.",
+      "cta": "Try Free for 7 Days",
+      "badge": "Best Value",
+      "features": [
+        {
+          "text": "Everything in Premium Monthly",
+          "included": true
+        },
+        {
+          "text": "Save 33% vs. monthly ($4.99 → $3.33/mo)",
+          "included": true
+        },
+        {
+          "text": "Exclusive yearly seasonal soundscapes",
+          "included": true
+        },
+        {
+          "text": "Early access to new features",
+          "included": true
+        }
+      ]
+    }
+  },
+  "faq": [
+    {
+      "question": "Can I cancel anytime?",
+      "answer": "Absolutely. You can cancel your subscription at any time from your account settings. If you cancel during your free trial, you won't be charged. If you cancel after subscribing, you'll retain access until the end of your current billing period."
+    },
+    {
+      "question": "What happens after my 7-day trial?",
+      "answer": "If you don't cancel before your trial ends, you'll be charged for your chosen plan. You'll get a reminder before the trial ends so there are no surprises."
+    },
+    {
+      "question": "Can I switch between monthly and yearly?",
+      "answer": "Yes! You can upgrade or downgrade your plan at any time. Changes take effect at the start of your next billing cycle."
+    },
+    {
+      "question": "Is my payment information secure?",
+      "answer": "Yes. All payments are processed securely through Stripe. We never store your full card details on our servers."
+    },
+    {
+      "question": "Do I need headphones for the soundscapes?",
+      "answer": "Not at all! Soundscapes work beautifully on any speakers. However, binaural beats are best experienced with headphones for the full brainwave entrainment effect."
+    }
+  ],
+  "tone_guide": "Warm, transparent, and reassuring. Never use hard-sell tactics or urgency. Focus on the value of calm — not what the user will miss out on. The pricing page should feel like an invitation, not a checkout counter."
+}
