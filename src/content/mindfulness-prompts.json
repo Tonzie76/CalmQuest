@@ -1,0 +1,226 @@
+{
+  "description": "Categorized mindfulness prompts for Calm Quest — gratitude, grounding, journaling, and micro-exercises",
+  "categories": {
+    "gratitude": {
+      "label": "Gratitude Prompts",
+      "description": "Prompts to help users cultivate appreciation and thankfulness",
+      "icon": "heart",
+      "prompts": [
+        {
+          "id": "grat-001",
+          "text": "Name three small things that brought you joy today. They can be as simple as a warm cup of tea or a smile from a stranger.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "grat-002",
+          "text": "Think of someone who has positively impacted your life. Write one sentence thanking them — even if you never send it.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "grat-003",
+          "text": "What is something about your body that you are grateful for? Your hands, your eyes, your breath — appreciate one thing fully.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "grat-004",
+          "text": "Find one thing in your immediate surroundings that you usually take for granted, and appreciate it fully for 30 seconds.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "grat-005",
+          "text": "Think back to a challenge you overcame. What strength did it reveal in you? Feel gratitude for your own resilience.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "grat-006",
+          "text": "Name one thing you love about where you live — your neighborhood, a specific room, the light at a certain time of day.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "grat-007",
+          "text": "Think of a meal you enjoyed recently. Appreciate the flavors, the effort that went into it, and the nourishment it gave you.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "grat-008",
+          "text": "Write down three things you have access to right now that many people don't — clean water, education, safety, connection.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    "grounding": {
+      "label": "Grounding Exercises",
+      "description": "Techniques to anchor yourself in the present moment using your senses",
+      "icon": "anchor",
+      "prompts": [
+        {
+          "id": "grd-001",
+          "text": "5-4-3-2-1 Exercise: Name 5 things you can SEE, 4 things you can TOUCH, 3 things you can HEAR, 2 things you can SMELL, and 1 thing you can TASTE.",
+          "difficulty": "easy",
+          "technique": "5-4-3-2-1"
+        },
+        {
+          "id": "grd-002",
+          "text": "Feel your feet pressing into the floor. Wiggle your toes. Notice the stability of the ground beneath you. You are here, you are safe.",
+          "difficulty": "easy",
+          "technique": "body-grounding"
+        },
+        {
+          "id": "grd-003",
+          "text": "Press your palms together firmly for 10 seconds. Then release. Notice the tingling sensation and the contrast between tension and release.",
+          "difficulty": "easy",
+          "technique": "physical-sensation"
+        },
+        {
+          "id": "grd-004",
+          "text": "Find a textured object near you — a book cover, a fabric, a plant leaf. Close your eyes and describe its texture aloud in detail.",
+          "difficulty": "medium",
+          "technique": "sensory-focus"
+        },
+        {
+          "id": "grd-005",
+          "text": "Name 5 things you can see that are the same color. It can be any color — blue, green, brown. Let your eyes search and find them.",
+          "difficulty": "easy",
+          "technique": "color-search"
+        },
+        {
+          "id": "grd-006",
+          "text": "Hold something cool — a glass of water, a metal object, a stone. Focus on the temperature sensation against your skin for 20 seconds.",
+          "difficulty": "easy",
+          "technique": "temperature-grounding"
+        },
+        {
+          "id": "grd-007",
+          "text": "Stand up and stretch your arms toward the ceiling. Reach as high as you comfortably can. Feel the length in your spine. Then slowly fold forward, letting your arms hang. Stay here for three breaths.",
+          "difficulty": "medium",
+          "technique": "movement-grounding"
+        }
+      ]
+    },
+    "journaling": {
+      "label": "Journaling Prompts",
+      "description": "Reflective writing prompts for self-discovery and emotional processing",
+      "icon": "edit",
+      "prompts": [
+        {
+          "id": "jour-001",
+          "text": "What is weighing on your mind right now? Write it all down without editing or judging. Let the page hold it for you.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "jour-002",
+          "text": "If your anxiety could speak, what would it say? Write a short letter from your anxiety to you, then write your response.",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jour-003",
+          "text": "Describe a 'perfect' peaceful moment — real or imagined. Where are you? What do you see, hear, smell, feel? Be as detailed as possible.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "jour-004",
+          "text": "What are three things you need right now? They can be practical (rest, water), emotional (connection, validation), or spiritual (silence, purpose).",
+          "difficulty": "easy"
+        },
+        {
+          "id": "jour-005",
+          "text": "Think of a recent moment when you felt calm, even briefly. What was different about that moment? How can you invite more of that into your day?",
+          "difficulty": "medium"
+        },
+        {
+          "id": "jour-006",
+          "text": "Write a 'permission slip' for yourself — 'I give myself permission to...' Fill in the blank with whatever you need permission for today.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "jour-007",
+          "text": "What story are you telling yourself right now? Is it true? Is it kind? What would a more compassionate version sound like?",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jour-008",
+          "text": "List three things you did today that deserve acknowledgment. Nothing is too small — getting out of bed counts.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "jour-009",
+          "text": "If you could give your younger self one piece of advice about handling stress, what would it be?",
+          "difficulty": "medium"
+        },
+        {
+          "id": "jour-010",
+          "text": "What are you holding onto that you could release? Write it down, then imagine placing it in a leaf floating down a stream, watching it drift away.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    "micro_exercises": {
+      "label": "Moment-of-Calm Micro-Exercises",
+      "description": "Quick exercises designed to be done in 30-60 seconds — perfect for anxious moments anytime",
+      "icon": "zap",
+      "prompts": [
+        {
+          "id": "micro-001",
+          "text": "Take one deep breath and hold it for 3 seconds. Breathe out slowly. Repeat once.",
+          "duration_seconds": 15
+        },
+        {
+          "id": "micro-002",
+          "text": "Look at the clock and count backward from 10. Focus only on the numbers.",
+          "duration_seconds": 15
+        },
+        {
+          "id": "micro-003",
+          "text": "Curl your toes tightly for 5 seconds. Release. Curl your fingers into fists for 5 seconds. Release.",
+          "duration_seconds": 20
+        },
+        {
+          "id": "micro-004",
+          "text": "Take a sip of cold water. Feel the coolness travel down your throat.",
+          "duration_seconds": 15
+        },
+        {
+          "id": "micro-005",
+          "text": "Name one thing you can see. One thing you can hear. One thing you can feel right now.",
+          "duration_seconds": 20
+        },
+        {
+          "id": "micro-006",
+          "text": "Roll your shoulders back and down. Take one deep breath. Let your shoulders drop even more on the exhale.",
+          "duration_seconds": 15
+        },
+        {
+          "id": "micro-007",
+          "text": "Place a hand on your chest and one on your belly. Breathe into your belly for three breaths.",
+          "duration_seconds": 30
+        },
+        {
+          "id": "micro-008",
+          "text": "Look at something far away (out a window). Rest your gaze there for 20 seconds and breathe normally.",
+          "duration_seconds": 25
+        },
+        {
+          "id": "micro-009",
+          "text": "Gently massage your temples with your fingertips for 10 seconds. Close your eyes and breathe.",
+          "duration_seconds": 15
+        },
+        {
+          "id": "micro-010",
+          "text": "Smile — even if you don't feel like it. Hold the smile for 10 seconds. Notice any shift in your mood.",
+          "duration_seconds": 15
+        },
+        {
+          "id": "micro-011",
+          "text": "Clasp your hands behind your back and gently pull your shoulders back. Open your chest. Breathe deeply twice.",
+          "duration_seconds": 20
+        },
+        {
+          "id": "micro-012",
+          "text": "Say this affirmation out loud: 'Right now, in this moment, I am safe and I am okay.'",
+          "duration_seconds": 10
+        }
+      ]
+    }
+  },
+  "total_prompts": 37
+}

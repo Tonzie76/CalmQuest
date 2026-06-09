@@ -1,0 +1,42 @@
+{
+  "description": "Onboarding screen copy for Calm Quest — welcoming new users to the app's three pillars",
+  "total_screens": 4,
+  "screens": [
+    {
+      "id": "onboard-001",
+      "title": "Welcome to Calm Quest",
+      "subtitle": "Your daily companion for peace and clarity",
+      "body": "Life moves fast. But here, you can slow down.\n\nCalm Quest is your personal space to breathe, reflect, and find stillness — one gentle moment at a time.\n\nLet's start your journey.",
+      "pillar": "welcome",
+      "cta": "Begin"
+    },
+    {
+      "id": "onboard-002",
+      "title": "Daily Inspirations",
+      "subtitle": "Words that ground you",
+      "body": "Each day, discover a handpicked affirmation, quote, or mindfulness prompt designed to center your mind and lift your spirit.\n\nRead them, sit with them, or journal about them — let wisdom be your anchor.",
+      "pillar": "inspirations",
+      "icon": "sparkles",
+      "cta": "Next"
+    },
+    {
+      "id": "onboard-003",
+      "title": "Therapeutic Games",
+      "subtitle": "Play your way to calm",
+      "body": "When your mind races, give it a gentle focus. Our breathing exercises, focus games, and calming puzzles are designed to quiet the noise and bring you back to center.\n\nNo scores. No pressure. Just presence.",
+      "pillar": "games",
+      "icon": "gamepad",
+      "cta": "Next"
+    },
+    {
+      "id": "onboard-004",
+      "title": "Calming Soundscapes",
+      "subtitle": "Listen your way to stillness",
+      "body": "Immerse yourself in a curated library of nature sounds, ambient music, white noise, and binaural beats. Whether you need focus, sleep, or simply a moment of quiet — there's a sound for every state.\n\nTry with headphones for the full experience.",
+      "pillar": "music",
+      "icon": "headphones",
+      "cta": "Start Your Journey"
+    }
+  ],
+  "tone_guide": "All onboarding copy should be delivered with a warm, gentle, unhurried voice. Short sentences. Plenty of space. No urgency. No hype. The user should feel welcomed, not sold to."
+}
