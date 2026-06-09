@@ -78,12 +78,12 @@ export const MusicPlayer: React.FC = () => {
 
   const getAlbumArt = (category: string) => {
     switch (category) {
-      case 'nature': return '/src/assets/images/album-nature.png';
-      case 'ambient': return '/src/assets/images/album-ambient.png';
-      case 'binaural_beats': return '/src/assets/images/album-binaural.png';
-      case 'white_noise': return '/src/assets/images/album-white-noise.png';
-      case 'instrumental': return '/src/assets/images/album-instrumental.png';
-      default: return '/src/assets/images/album-ambient.png';
+      case 'nature': return '/images/album-nature.png';
+      case 'ambient': return '/images/album-ambient.png';
+      case 'binaural_beats': return '/images/album-binaural.png';
+      case 'white_noise': return '/images/album-white-noise.png';
+      case 'instrumental': return '/images/album-instrumental.png';
+      default: return '/images/album-ambient.png';
     }
   };
 
