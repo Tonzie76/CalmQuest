@@ -7,6 +7,8 @@ import {
 import musicData from '../content/music-soundscapes.json';
 import { MusicData, MusicTrack } from '../types/music';
 import { usePlayerStore } from '../store/usePlayerStore';
+import { useAuthStore } from '../store/useAuthStore';
+import { useNavigate } from 'react-router-dom';
 
 const data = musicData as MusicData;
 
@@ -14,9 +16,10 @@ export default function MusicPage() {
   const [activeCategory, setActiveCategory] = useState('all');
   const [searchQuery, setSearchSearchQuery] = useState('');
   const { currentTrack, setCurrentTrack, isPlaying, togglePlay } = usePlayerStore();
+  const { user } = useAuthStore();
+  const navigate = useNavigate();
 
-  // Mock premium status
-  const isPremium = false;
+  const isPremium = user?.tier && user.tier !== 'free';
 
   const categories = useMemo(() => [
     { id: 'all', label: 'All', icon: Music },
@@ -59,6 +62,11 @@ export default function MusicPage() {
   };
 
   const handleTrackClick = (track: MusicTrack) => {
+    if (track.tier === 'premium' && !isPremium) {
+      navigate('/pricing');
+      return;
+    }
+    
     if (currentTrack?.id === track.id) {
       togglePlay();
     } else {
